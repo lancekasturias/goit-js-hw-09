@@ -16,7 +16,7 @@ function promiseGenerator(event) {
 
   if (delay.value < 1 || step.value < 1 || amount.value < 1) {
     Notify.failure('Please input a positive value');
-    form.reset();
+
     return;
   }
 
